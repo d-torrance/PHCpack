@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with sphinxdoc
+
+override_dh_auto_build:
+	make -C src/Objects
+
+override_dh_installman:
+	make -C src/doc man
+	dh_installman
+
+override_dh_installdocs:
+	make -C src/doc html
+	dh_installdocs

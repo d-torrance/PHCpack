@@ -1,0 +1,2 @@
+version=3
+https://github.com/janverschelde/PHCpack/releases /janverschelde/PHCpack/archive/v(.+)\.tar\.gz

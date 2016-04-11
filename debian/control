@@ -1,0 +1,16 @@
+Source: phcpack
+Section: math
+Priority: extra
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Doug Torrance <dtorrance@piedmont.edu>
+Build-Depends: debhelper (>= 9), gnat, python-sphinx
+Standards-Version: 3.9.8
+Homepage: http://homepages.math.uic.edu/~jan/PHCpack/phcpack.html
+Vcs-Browser: https://anonscm.debian.org/git/debian-science/packages/phcpack.git
+Vcs-Git: https://anonscm.debian.org/git/debian-science/packages/phcpack.git
+
+Package: phcpack
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: TODO
+ TODO
