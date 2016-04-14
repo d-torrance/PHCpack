@@ -1,5 +1,8 @@
 #!/usr/bin/make -f
 
+PHCLAB_VERSION = \
+	$(shell grep Version src/Octave/README.txt | tail -n1 | cut -d ' ' -f 2)
+
 %:
 	dh $@ --with sphinxdoc
 
